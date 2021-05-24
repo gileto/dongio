@@ -353,7 +353,7 @@ a {
 	grid-template-columns: repeat(12, 1fr);
 	column-gap: 30px;
 	row-gap: 30px;
-	margin-bottom: 52px;
+	margin-bottom: 88px;
 }
 
 .menu__item {
@@ -463,8 +463,28 @@ a {
 	margin-bottom: 3px;
 }
 
+.menu__select-selected-base-burg {
+	padding: 4px 17px;
+	background-color: white;
+	border-radius: 3px;
+	margin-left: 3px;
+	margin-top: 3px;
+}
+
+.menu__select-selected-size-burg {
+	background-color: white;
+	border-radius: 3px;
+	padding: 4px 6px;
+	margin-left: 3px;
+	margin-bottom: 3px;
+}
+
 .menu__select-base-non {
 	margin: 7px 41px 7px 34px;
+}
+
+.menu__select-base-non-burg {
+	margin: 7px 20px 7px 15px;
 }
 
 .menu__select-size-middle {
@@ -472,9 +492,20 @@ a {
 	margin-top: 3px;
 }
 
+.menu__select-size-middle-burg {
+	margin-left: 11px;
+	margin-top: 3px;
+}
+
 .menu__select-size-end {
 	margin-left: 21px;
 	margin-top: 3px;
+}
+
+.menu__select-size-end-burg {
+	margin-left: 5px;
+	margin-top: 3px;
+	margin-right: 10px;
 }
 
 .menu__quantity {
@@ -530,4 +561,72 @@ a {
 
 .menu__item-img {
 	max-width: 255px;
+}
+
+.dough {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	column-gap: 30px;
+	margin-bottom: 70px;
+}
+
+.dough__video {
+	position: relative;
+	grid-column: span 1;
+}
+
+.dough__video-play {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 50%;
+	transform: translateY(-50%);
+}
+.dough__video-play-bord {
+	position: absolute;
+	left: 45.5%;
+	top: 37.5%;
+}
+
+.dough__info-title {
+	font-family: "Roboto", sans-serif;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 38px;
+	margin-top: 20px;
+	color: #333333;
+}
+
+.dough__info-desc {
+	max-width: 510px;
+	font-family: "Roboto", sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 160%;
+	color: #4f4f4f;
+	margin-bottom: 30px;
+}
+
+.dough__info-icons {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	column-gap: 50px;
+}
+
+.dough__info-icon {
+	grid-column: span 1;
+	display: flex;
+	align-items: center;
+}
+
+.dough__icon {
+	margin-right: 10px;
+}
+
+.dough__info-icon-desc {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 160%;
 }
