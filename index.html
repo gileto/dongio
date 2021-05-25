@@ -54,25 +54,31 @@
 				<a href="#!" class="header__link-button"
 					><button class="header__button">Войти</button></a
 				>
+                <div class="header__mobile-cart">
+                    <div class="header__mobile-cart-img"><img src="images/header/cart.svg" alt="cart"></div>
+                    <p class="header__mobile-cart-quantity">: 0</p>
+                    <div class="burger"> <img src="images/header/burger-menu.svg" alt=""></div>
+                </div>
+            
 			</div>
         </div>
     </header>
 			<div class="header-second wrapper">
 				<nav class="header-second__list">
 					<li class="header-second__item">
-						<a class="header-second__link">Пиццы</a>
+						<a href="#!" class="header-second__link">Пиццы</a>
 					</li>
 					<li class="header-second__item">
-						<a class="header-second__link">Бургеры</a>
+						<a href="#!" class="header-second__link">Бургеры</a>
 					</li>
 					<li class="header-second__item">
-						<a class="header-second__link">Закуски</a>
+						<a href="#!" class="header-second__link">Закуски</a>
 					</li>
 					<li class="header-second__item">
-						<a class="header-second__link">Салаты</a>
+						<a href="#!" class="header-second__link">Салаты</a>
 					</li>
 					<li class="header-second__item">
-						<a class="header-second__link">Напитки</a>
+						<a href="#!" class="header-second__link">Напитки</a>
 					</li>
 				</nav>
 				<div class="header-second-likes-and-cart">
@@ -118,7 +124,7 @@
                                 
                                 <div class="menu__quantity-price">от 325 ₽</div>
                             </div>
-                            <button class="menu__quantity-btn">Добавить в корзину</button>
+                            <button class="menu__quantity-btn">Собрать пиццу 2 в 1</button>
                         </div>
                     </div>
                     <div class="menu__item">
@@ -151,7 +157,7 @@
                             <button class="menu__quantity-btn">Добавить в корзину</button>
                         </div>
                     </div>
-                    <div class="menu__item">
+                    <div class="menu__item hidden">
                         <div class="menu__item-images">
                             <img src="images/menu/dishes/mashrooms.jpg" alt="half" class="menu__item-img">
                             <img src="images/menu/icons/new.svg" alt="new" class="menu__new-first">
@@ -181,7 +187,7 @@
                             <button class="menu__quantity-btn">Добавить в корзину</button>
                         </div>
                     </div>
-                    <div class="menu__item">
+                    <div class="menu__item hidden">
                         <div class="menu__item-images">
                             <img src="images/menu/dishes/mashrooms-small.jpg" alt="half" class="menu__item-img">
                             <img src="images/menu/icons/hot.svg" alt="new" class="menu__hot">
@@ -205,12 +211,12 @@
                             <div class="menu__quantity">
                                 <p class="menu__quantity-howmuch"> <span class="menu__quantity-min">-</span> 1 <span class="menu__quantity-plus">+</span></p>
                                 
-                                <div class="menu__quantity-price">от 325 ₽</div>
+                                <div class="menu__quantity-price">от 565 ₽</div>
                             </div>
                             <button class="menu__quantity-btn">Добавить в корзину</button>
                         </div>
                     </div>
-                    <div class="menu__item">
+                    <div class="menu__item hidden">
                         <div class="menu__item-images">
                             <img src="images/menu/dishes/pepe-rare.jpg" alt="half" class="menu__item-img">
                             <img src="images/menu/icons/popular.svg" alt="new" class="menu__popular">
@@ -239,7 +245,7 @@
                             <button class="menu__quantity-btn">Добавить в корзину</button>
                         </div>
                     </div>
-                    <div class="menu__item">
+                    <div class="menu__item hidden">
                         <div class="menu__item-images">
                             <img src="images/menu/dishes/green-2.jpg" alt="half" class="menu__item-img">
                             <img src="images/menu/icons/popular.svg" alt="new" class="menu__popular">
@@ -269,7 +275,7 @@
                             <button class="menu__quantity-btn">Добавить в корзину</button>
                         </div>
                     </div>
-                    <div class="menu__item">
+                    <div class="menu__item hidden">
                         <div class="menu__item-images">
                             <img src="images/menu/dishes/seasons.jpg" alt="half" class="menu__item-img">
                             <img src="images/menu/icons/new.svg" alt="popular" class="menu__new-first">
@@ -299,7 +305,7 @@
                             <button class="menu__quantity-btn">Добавить в корзину</button>
                         </div>
                     </div>
-                    <div class="menu__item">
+                    <div class="menu__item hidden">
                         <div class="menu__item-images">
                             <img src="images/menu/dishes/burger.jpg" alt="half" class="menu__item-img">
                             <img src="images/menu/icons/like.svg" alt="like" class="menu__like">
@@ -331,7 +337,7 @@
             </section>
             <section class="dough wrapper">
                 <div class="dough__video">
-                    <img src="images/history/video.jpg" alt="video">
+                    <img src="images/history/video.jpg" alt="video" class="dough__video-img">
                     <img src="images/history/play.svg" alt="play" class="dough__video-play">
                     <img src="images/history/play-border.svg" alt="play" class="dough__video-play-bord">
                 </div>
@@ -379,7 +385,7 @@
                         <p class="testimonials__testimonial-text">Привезли очень быстро. Пицца настолько была горячая, будто приготовили и сразу же отдали. С ингридиентами все отлично. Поменял додо пиццу на вас!</p>
                         <button class="testimonials__testimonial-btn">Смотреть ответ от DONGIO</button>
                     </div>
-                    <div class="testimonials__testimonial">
+                    <div class="testimonials__testimonial testimonials__second">
                         <div class="testimonials__testimonial-header">
                             <div class="testimonials__testimonial-header-title">
                                 <h5 class="testimonials__testimonial-title">Лилия</h5>
@@ -407,7 +413,7 @@
                         <p class="testimonials__testimonial-text-2">Добрый день, сожалеем что так вышло, к сожалению дорожная ситуация в центре нас крайне подвела :(
                             В качестве извенений можем вам предложить пиццу «Маргарита» 25 см бесплатно со следующим заказом, просто укажите это в комментариях!</p>
                     </div>
-                    <div class="testimonials__testimonial">
+                    <div class="testimonials__testimonial testimonials__third">
                         <div class="testimonials__testimonial-header">
                             <div class="testimonials__testimonial-header-title">
                                 <h5 class="testimonials__testimonial-title">Макс</h5>
