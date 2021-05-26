@@ -176,6 +176,7 @@ a {
 
 .header__logo-img {
 	margin-right: 30px;
+	width: 50%;
 }
 
 .header__info-city {
@@ -416,6 +417,7 @@ a {
 
 .menu__products {
 	display: flex;
+	justify-content: space-between;
 	margin-bottom: 10px;
 }
 
@@ -1048,5 +1050,105 @@ a {
 
 	.footer__down-content {
 		flex-wrap: wrap;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.dough__info-icon {
+		grid-column: span 2;
+		width: 100%;
+	}
+
+	.header__logo-img {
+		margin-right: 0;
+	}
+
+	.header-second__item {
+		margin-right: 20px;
+	}
+
+	.header-second {
+		padding: 0 0 0 20px;
+	}
+
+	.main {
+		margin-bottom: 40px;
+	}
+
+	.menu {
+		margin-bottom: 40px;
+		column-gap: 0;
+	}
+
+	.menu__item {
+		margin: 0 auto;
+	}
+
+	.header {
+		margin-top: 20px;
+	}
+
+	.dough__info-icon {
+		margin-bottom: 20px;
+	}
+
+	.dough {
+		margin-bottom: 20px;
+	}
+
+	.testimonials__title {
+		font-family: "Roboto", sans-serif;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 160%;
+	}
+
+	.menu__item-info {
+		width: 100%;
+	}
+
+	.menu__item {
+		width: 100%;
+	}
+
+	.menu__item-img {
+		position: relative;
+		bottom: 0;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	.menu__item-half-img-mg {
+		position: relative;
+		bottom: 0;
+		left: 35%;
+		transform: translateX(-66%);
+	}
+
+	.menu__item-half-img {
+		position: relative;
+		bottom: 0;
+		left: 5%;
+	}
+
+	.menu__title {
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 160%;
+	}
+
+	.dough__info-title {
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 160%;
+		text-align: start;
+	}
+
+	.dough__info-desc {
+		font-family: "Roboto", sans-serif;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 160%;
+		color: #4f4f4f;
 	}
 }
