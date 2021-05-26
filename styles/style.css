@@ -378,6 +378,10 @@ a {
 	grid-column: span 3;
 }
 
+.menu__item-img {
+	display: flex;
+}
+
 .menu__item-images {
 	display: flex;
 	position: relative;
@@ -616,6 +620,8 @@ a {
 
 .dough__video {
 	position: relative;
+	top: 0;
+	left: 0;
 	grid-column: span 1;
 }
 
@@ -623,16 +629,22 @@ a {
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
-	top: 50%;
-	transform: translateY(-50%);
-}
-.dough__video-play-bord {
-	position: absolute;
-	left: 45.5%;
-	top: 37.5%;
+	top: 33%;
 }
 
 .dough__info-title {
+	font-family: "Roboto", sans-serif;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 38px;
+	margin-top: 20px;
+	color: #333333;
+}
+
+.dough__info-title-hidden {
+	display: none;
 	font-family: "Roboto", sans-serif;
 	text-transform: uppercase;
 	margin-bottom: 20px;
@@ -934,6 +946,7 @@ a {
 
 	.dough__info-title {
 		text-align: center;
+		grid-column: span 2;
 	}
 
 	.dough__info-desc {
@@ -1051,6 +1064,10 @@ a {
 	.footer__down-content {
 		flex-wrap: wrap;
 	}
+
+	.testimonials__testimonial-btn {
+		padding: 11px 25px;
+	}
 }
 
 @media screen and (max-width: 450px) {
@@ -1112,23 +1129,11 @@ a {
 	}
 
 	.menu__item-img {
+		display: flex;
 		position: relative;
 		bottom: 0;
 		left: 50%;
 		transform: translateX(-50%);
-	}
-
-	.menu__item-half-img-mg {
-		position: relative;
-		bottom: 0;
-		left: 35%;
-		transform: translateX(-66%);
-	}
-
-	.menu__item-half-img {
-		position: relative;
-		bottom: 0;
-		left: 5%;
 	}
 
 	.menu__title {
@@ -1138,10 +1143,7 @@ a {
 	}
 
 	.dough__info-title {
-		font-weight: bold;
-		font-size: 16px;
-		line-height: 160%;
-		text-align: start;
+		display: none;
 	}
 
 	.dough__info-desc {
@@ -1150,5 +1152,32 @@ a {
 		font-size: 14px;
 		line-height: 160%;
 		color: #4f4f4f;
+	}
+
+	.dough__video-img {
+		margin-bottom: 20px;
+	}
+	.testimonials__testimonial-btn {
+		margin-bottom: 0;
+	}
+
+	.testimonials {
+		margin-bottom: 40px;
+	}
+
+	.footer__down-links-list {
+		margin-bottom: 20px;
+	}
+
+	.dough__info-title-hidden {
+		display: block;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 160%;
+		text-align: start;
+		margin-top: 0;
+		margin-bottom: 20px;
+		grid-column: span 2;
+		order: -1;
 	}
 }
