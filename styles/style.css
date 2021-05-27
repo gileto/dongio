@@ -602,12 +602,14 @@ a {
 }
 
 .menu__item-img {
-	max-width: 255px;
-	max-height: 255px;
+	width: 255px;
+	height: 255px;
+	margin: 0 auto;
 }
 
 .menu__item-img-flex {
 	display: flex;
+	height: auto;
 	margin: 0 auto;
 }
 
@@ -1127,13 +1129,6 @@ a {
 
 	.menu__item {
 		width: 100%;
-	}
-
-	.menu__item-img {
-		position: relative;
-		bottom: 0;
-		left: 50%;
-		transform: translateX(-50%);
 	}
 
 	.menu__title {
