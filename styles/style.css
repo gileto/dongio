@@ -380,10 +380,6 @@ a {
 	grid-column: span 3;
 }
 
-.menu__item-img {
-	height: auto;
-}
-
 .menu__item-images {
 	display: flex;
 	position: relative;
@@ -606,8 +602,15 @@ a {
 }
 
 .menu__item-img {
+	display: block;
 	max-width: 255px;
 	max-height: 255px;
+}
+
+.menu__item-img-flex {
+	display: flex;
+	height: auto;
+	margin: 0 auto;
 }
 
 /* menu end */
@@ -1129,7 +1132,6 @@ a {
 	}
 
 	.menu__item-img {
-		display: flex;
 		position: relative;
 		bottom: 0;
 		left: 50%;
