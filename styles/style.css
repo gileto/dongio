@@ -607,6 +607,7 @@ a {
 
 .menu__item-img {
 	max-width: 255px;
+	height: auto;
 }
 
 /* menu end */
