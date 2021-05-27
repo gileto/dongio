@@ -274,7 +274,9 @@ a {
 
 .header-second__list {
 	display: flex;
-	overflow: hidden;
+	overflow: scroll;
+	scroll-behavior: smooth;
+	transition: all ease 0.5s;
 }
 
 .header-second__item {
@@ -380,6 +382,7 @@ a {
 
 .menu__item-img {
 	display: flex;
+	height: auto;
 }
 
 .menu__item-images {
@@ -1114,10 +1117,7 @@ a {
 	}
 
 	.testimonials__title {
-		font-family: "Roboto", sans-serif;
-		font-weight: bold;
-		font-size: 16px;
-		line-height: 160%;
+		font: 16px/160% bold "Roboto", sans-serif;
 	}
 
 	.menu__item-info {
